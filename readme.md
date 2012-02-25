@@ -33,5 +33,5 @@ YAML implements most of the YAML 1.2 specification.
     // Enable parsing of PHP code in the YAML source
     $array = Yaml::parse($file, TRUE);
 
-    Debug::vars(Yaml::dump($array));
+    echo Debug::vars(Yaml::dump($array));
 
