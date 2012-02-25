@@ -11,4 +11,4 @@ $loader = new Symfony\Component\ClassLoader\UniversalClassLoader();
 $loader->register();
 
 // Register the Symfony namespace with the autoloader
-$loader->registerNamespace('Symfony', realpath(__DIR__.'/vendor'));
+$loader->registerNamespace('Symfony', __DIR__.'/vendor');
